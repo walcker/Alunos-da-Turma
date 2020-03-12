@@ -66,8 +66,8 @@ Turma::Turma():
 
 Turma::~Turma(){
 
-	for (int i = 0; i < lotacao; i++){
-		delete participantes[i];
-	}
-
+  delete [] participantes;
+	//for (int i = 0; i < lotacao; i++){
+		//delete &participantes;
+//	}
 }

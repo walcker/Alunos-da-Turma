@@ -1,7 +1,7 @@
-#ifndef STUDENT_H
-#define STUDENT_H
+#ifndef ALUNO_H
+#define ALUNO_H
 
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -33,4 +33,5 @@ public:
 	Aluno(string mat, short idade1,string c1,string endereco1,string nome1);
 	
 };
+
 #endif

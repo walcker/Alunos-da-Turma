@@ -1,5 +1,5 @@
-#ifndef SCHOOL_CLASS_H
-#define SCHOOL_CLASS_H
+#ifndef TURMA_H
+#define TURMA_H
 
 #include <iostream>
 #include "aluno.h"
@@ -32,4 +32,5 @@ public:
 	
 	~Turma();
 };
+
 #endif
